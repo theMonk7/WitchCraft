@@ -1,0 +1,58 @@
+html, body{
+    /* height: 100%; */
+    width: 100%;
+    font-weight: 800;
+      /* background-color: black */
+      /* background-image: linear-gradient(to right, #0025ff, #6353ff, #8f7bff, #b3a2ff, #d4caff, #dfcdfd, #e9d0fc, #f2d4fa, #faaee4, #ff82bd, #ff5085, #ff0041); */
+      /* background-image: linear-gradient(to right, #ff0000, #ff3d66, #ff75ad, #ffa6e0, #f8d1fc, #dde3ff, #d3f1ff, #defaff, #acfeff, #73fff2, #35ffd5, #00ffaa); */
+      /* background-image: linear-gradient(to right, #000000, #2e2e2e, #585858, #878787, #b9b9b9, #b9b9b9, #b9b9b9, #b9b9b9, #878787, #585858, #2e2e2e, #000000); */
+    background-image: url("WCImages/cat1.jpg");
+    background-repeat: round;
+    font-family: Arial;
+    align-items: center;
+   
+    font-family: Arial;
+}
+/* Section : 1-Navigation Bar-------------------------------------------------------------- */
+#section1_spells{
+    height: 56px;
+}
+.navigationBar{
+    background-color: #4a12e3;
+}
+.brandTitle {
+font-family: 'Eater', cursive;
+letter-spacing: 0.2em;
+}
+
+/* Section : 2 - Social Media Section */
+
+.socialMediaBox{
+    display : flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    height:90%;
+
+
+
+}
+.social{
+  background: transparent;
+  padding: 5px;
+  width: 300px;
+  height: 300px;
+  margin : 180px 55px;
+ 
+}
+
+/* footer------------------------------------------------------------------------ */
+.trademark{
+    text-align: center;
+    color: #ff073a;
+    bottom: 10px;
+  }

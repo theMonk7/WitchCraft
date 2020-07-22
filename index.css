@@ -1,0 +1,198 @@
+html, body{
+height: 100%;
+font-weight: 800;
+  /* background-color: black */
+  /* background-image: linear-gradient(to right, #0025ff, #6353ff, #8f7bff, #b3a2ff, #d4caff, #dfcdfd, #e9d0fc, #f2d4fa, #faaee4, #ff82bd, #ff5085, #ff0041); */
+  /* background-image: linear-gradient(to right, #ff0000, #ff3d66, #ff75ad, #ffa6e0, #f8d1fc, #dde3ff, #d3f1ff, #defaff, #acfeff, #73fff2, #35ffd5, #00ffaa); */
+  /* background-image: linear-gradient(to right, #000000, #2e2e2e, #585858, #878787, #b9b9b9, #b9b9b9, #b9b9b9, #b9b9b9, #878787, #585858, #2e2e2e, #000000); */
+background-image: url("WcImages/bImg7.jpg");
+background-repeat: round;
+font-family: Arial;
+align-items: center;
+}
+
+#section1, #section2,#section3{
+  padding: 0 5%;
+}
+/* SECTION : 1 -----------------------------------------------------------------*/
+
+.navigationBar{
+  background-color: #ff073a;
+  
+}
+.brandTitle {
+font-family: 'Eater', cursive;
+letter-spacing: 0.2em;
+}
+.topImageSection{
+position: relative;
+top: 100px;
+bottom: 100px;
+margin: 0;
+}
+.topImage{
+  padding:0 9%;
+  position: relative;
+}
+.section1Image{
+  width: 100%;
+  height: 650px;
+  margin-bottom: 100px;
+  border-radius: 1%;
+  
+
+}
+.spell1{
+  text-align: center;
+  position: absolute; /*Position the background text*/
+  bottom: 0; /*At the bottom. Use top:0 /* to append it to the top*/
+  background: rgb(168, 162, 162); /* Fallback color */
+  background: rgba(0, 0, 0, 0); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px 70px 100px 20px; /* Some padding */
+  margin : 0;
+  bottom: 20px;
+  
+}
+@import url(https://fonts.googleapis.com/css?family=Akronim);
+
+/* body {
+    background: #ca8;
+} */
+
+.fire {
+	margin: 0 auto;
+	width: 80%;
+	max-width: 900px;
+	height: 150px;
+
+	background-position: center center;
+	background-size: 1000px 200px;
+	border-radius: 10px;
+	font-family: 'Akronim';
+	overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+  right: 120px;
+
+}
+.fire:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.Blazing {
+	display: inline-block;
+	margin: 0;
+
+    color: rgb(255, 37, 8);
+    font-size: 30px;
+	line-height: 50px;
+	min-width: 50px;
+	outline: none;
+	vertical-align: middle;
+    
+	text-shadow:
+        0 3px 20px red,
+        0 0 20px red,
+		0 0 10px orange,
+		4px -5px 6px yellow,
+		-4px -10px 10px yellow,
+		0 -10px 30px yellow;
+	animation: 2s Blazing infinite alternate linear;
+}
+
+@keyframes Blazing {
+	0%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+		0 0 10px orange,
+		0 0 0 yellow,
+		0 0 5px yellow,
+		-2px -5px 5px yellow,
+		4px -10px 10px yellow; }
+	25%   { text-shadow: 0 3px 20px red, 0 0 30px red,
+		0 0 20px orange,
+		0 0 5px yellow,
+		-2px -5px 5px yellow,
+		3px -10px 10px yellow,
+		-4px -15px 20px yellow; }
+	50%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+		0 -5px 10px orange,
+		-2px -5px 5px yellow,
+		3px -10px 10px yellow,
+		-4px -15px 20px yellow,
+		2px -20px 30px rgba(255,255,0,0.5); }
+	75%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+		0 -5px 10px orange,
+		3px -5px 5px yellow,
+		-4px -10px 10px yellow,
+		2px -20px 30px rgba(255,255,0,0.5),
+		0px -25px 40px rgba(255,255,0,0)}
+	100%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+		0 0 10px orange,
+		0 0 0 yellow,
+		0 0 5px yellow,
+		-2px -5px 5px yellow,
+		4px -10px 10px yellow; }
+}
+/* section : 2 -------------------------------------------------------------------*/
+
+.weirdHobby{
+  padding: 5% 10%;
+  
+  
+}
+.weirdImg{
+  
+  
+  width: 100%;
+  height : 350px;
+  min-width: 200px;
+  min-height: 350px;
+ 
+  
+}
+.card:hover{
+  /* transform: scale(1.05); */
+  animation-name: zoomer;
+  animation-duration: 1s;
+}
+.mb-4{
+  margin-top: 1.5rem;
+}
+@keyframes zoomer {
+  0%   {transform: scale(1.001);}
+  25%  {transform: scale(1.009);}
+  50%  {transform: scale(1.018);}
+  75%  {transform: scale(1.025);}
+  100% {transform: scale(1.03);}
+}
+
+
+/* SECTION : 3 -------------------------------------------------------------------*/
+
+
+
+
+
+
+.carouselBase{
+
+  /* background-image: url("WCImages/bImg12.jpg"); */
+}
+
+.caroImg{
+  width: 70%;
+  height: 500px;
+  margin: 5% 10% 5% 15%;
+  border-radius: 3%;
+  
+}
+
+/* footer------------------------------------------------------------------------ */
+.trademark{
+  text-align: center;
+  color: #ff073a;
+}
