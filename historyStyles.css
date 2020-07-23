@@ -8,7 +8,8 @@ html, body{
       /* background-image: linear-gradient(to right, #000000, #2e2e2e, #585858, #878787, #b9b9b9, #b9b9b9, #b9b9b9, #b9b9b9, #878787, #585858, #2e2e2e, #000000); */
     background-image: url("WCImages/bImg2.jpg"); 
 
-    background-repeat: round;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: Arial;
     align-items: center;
    
@@ -26,12 +27,7 @@ font-family: 'Eater', cursive;
 letter-spacing: 0.2em;
 }
 
-.section3_spells{
-/*    
-    background-image: url("WCImages/bImg2.jpg");
-    background-repeat: round; */
-    
-  }
+
 
   /* colourful word --------------------------------------------------------------------------*/
   @import url(https://fonts.googleapis.com/css?family=Montserrat);
@@ -83,7 +79,15 @@ animation-delay: -5s;
 100% {stroke-dashoffset: -35%;}
 }
 /* cards --------------------------------------------------------------------------*/
-  
+.parent_block{
+  position: relative;
+}
+
+  .img_card{
+    position: absolute;
+    top:0%;
+    left:0%;
+  }
   .abs,
   h2:after,
   .cards .card figcaption,
@@ -101,7 +105,7 @@ animation-delay: -5s;
   .news .article {
     position: relative;
   }
-  .fix {
+  /* .fix {
     position: fixed;
   }
   .dfix {
@@ -120,8 +124,8 @@ animation-delay: -5s;
   .cards,
   .news {
     display: flex;
-  }
-  .dif {
+  } */
+  /* .dif {
     display: inline-flex;
   }
   .dg {
@@ -135,12 +139,12 @@ animation-delay: -5s;
   h2 strong,
   h2 span {
     vertical-align: middle;
-  }
+  } */
  
   .wrapper {
     padding: 15px;
   }
-  h2 {
+  /* h2 {
     padding: 10px;
     padding-left: 25px;
     color: #ccc;
@@ -165,11 +169,11 @@ animation-delay: -5s;
     left: 0;
     right: 0;
     background: #373d47;
-  }
-  .cards,
+  } */
+  /* .cards,
   .news {
     flex-flow: row wrap;
-  }
+  } */
   .cards .card,
   .news .card {
     margin: 30px 95px 90px 95px;
